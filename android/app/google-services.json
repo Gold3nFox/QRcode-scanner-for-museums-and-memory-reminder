@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "680074379478",
+    "firebase_url": "https://khateratapp.firebaseio.com",
+    "project_id": "khateratapp",
+    "storage_bucket": "khateratapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680074379478:android:ad551227c0952546",
+        "android_client_info": {
+          "package_name": "com.seemsys.khateratapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680074379478-9uoume0fb7nge2h8t1ahuv9vi2h0dgoc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUNPC2r5-PAJy1zJ-QoakTNZfJWKbsPqA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

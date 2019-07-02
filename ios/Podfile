@@ -1,0 +1,74 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'khateratapp' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for Khateratapp
+  
+  pod 'React', :path => '../node_modules/react-native', :subspecs => [
+    'RCTImage',
+    'RCTLinkingIOS',
+    'RCTPushNotification',
+    'Core',
+    'CxxBridge', # Include this for RN >= 0.47
+#    'BatchedBridge',
+    'DevSupport', # Include this to enable In-App Devmenu if RN >= 0.43
+    'RCTText',
+    'RCTNetwork',
+    'RCTWebSocket', # Needed for debugging
+    'RCTAnimation', # Needed for FlatList and animations running on native UI thread
+#    # Add any other subspecs you want to use in your project
+  ]
+  
+  # Explicitly include Yoga if you are using RN >= 0.42.0
+  pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+
+  # Third party deps podspec link
+  pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
+  pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
+  pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
+
+  # Required by RNFirebase
+  pod 'Firebase/Core', '~> 5.3.0'
+
+  # [OPTIONAL PODS] - comment out pods for firebase products you won't be using.
+    #  pod 'Firebase/AdMob'
+    #  pod 'Firebase/Auth'
+    #  pod 'Firebase/Crash'
+    #  pod 'Firebase/Database'
+    #  pod 'Firebase/Functions'
+    #  pod 'Firebase/DynamicLinks'
+#   pod 'Firebase/Firestore', '~> 5.3.0'
+#  pod 'Firebase/Invites'
+  pod 'Firebase/Messaging', '~> 5.3.0'
+#  pod 'Firebase/RemoteConfig'
+  # pod 'Firebase/Storage', '~> 5.3.0'
+#  pod 'Firebase/Performance'
+#  pod 'Fabric', '~> 1.7.5'
+#  pod 'Crashlytics'
+
+
+  pod 'react-native-orientation', :path => '../node_modules/react-native-orientation'
+
+  pod 'react-native-spinkit', :path => '../node_modules/react-native-spinkit'
+
+  pod 'react-native-splash-screen', :path => '../node_modules/react-native-splash-screen'
+
+  pod 'react-native-video', :path => '../node_modules/react-native-video'
+
+pod 'react-native-camera', path: '../node_modules/react-native-camera', subspecs: [
+'FaceDetector'
+]
+  
+  
+#  pod 'react-native-qrcode-scanner', :path => '../node_modules/react-native-qrcode-scanner'
+
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+  
+
+
+  pod 'ReactNativePermissions', :path => '../node_modules/react-native-permissions'
+
+end
