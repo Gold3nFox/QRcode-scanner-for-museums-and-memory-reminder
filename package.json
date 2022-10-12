@@ -26,7 +26,7 @@
     "glog": "^1.7.0",
     "native-base": "^2.8.0",
     "react": "^16.3.2",
-    "react-native": "0.56.1",
+    "react-native": "0.70.2",
     "react-native-camera": "^1.2.0",
     "react-native-firebase": "^4.3.8",
     "react-native-md-textinput": "^2.0.4",
