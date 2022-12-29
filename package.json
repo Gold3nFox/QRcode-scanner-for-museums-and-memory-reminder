@@ -6,7 +6,7 @@
     "babel-jest": "^23.4.0",
     "babel-preset-react-native-stage-0": "^1.0.1",
     "fs-extra": "^6.0.1",
-    "jest": "^23.4.0",
+    "jest": "^29.3.1",
     "react-test-renderer": "^16.4.1",
     "replace-in-file": "^3.4.0"
   },
@@ -26,7 +26,7 @@
     "glog": "^1.7.0",
     "native-base": "^2.8.0",
     "react": "^16.3.2",
-    "react-native": "0.56.1",
+    "react-native": "0.70.6",
     "react-native-camera": "^1.2.0",
     "react-native-firebase": "^4.3.8",
     "react-native-md-textinput": "^2.0.4",
